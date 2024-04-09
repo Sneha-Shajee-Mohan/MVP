@@ -1,0 +1,15 @@
+name: MVP
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pandas
+    - python-dotenv
+    - streamlit
+    - boto3
+    - ipykernel
+    - vaderSentiment
+    - plotly==5.19.0
+    - matplotlib==3.8.4
+    # - scikit-learn
+    # - seaborn
