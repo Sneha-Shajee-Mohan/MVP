@@ -77,3 +77,11 @@ map_center = (park_details['latitude'], park_details['longitude'])
 m = folium.Map(location=map_center, zoom_start=10)
 folium.Marker(location=map_center, popup=selected_park).add_to(m)
 folium_static(m)
+
+
+st.subheader("Next Steps :")
+multiline_text = '''
+1. Need to add more features/functionalities, this web-app has only basic features
+2. Need to add color, styling, layout.
+'''
+st.write(multiline_text)
